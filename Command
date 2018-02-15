@@ -1,0 +1,6 @@
+sudo make
+sudo insmod module-name.ko
+sudo rmmod module-name
+
+gcc consumer_numbers_1.c -o c.out
+gcc producer_numbers_1.c -o p.out
